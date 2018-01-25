@@ -1,0 +1,8 @@
+<div class="col-xs-2"></div>
+<div class="col-xs-8">
+    <app-todo-item
+        *ngFor="let todo of todos"
+        [text]="todo.text"
+        [completed]="todo.completed"></app-todo-item>
+</div>
+<div class="col-xs-2"></div>
